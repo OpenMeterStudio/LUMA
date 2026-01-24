@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleExecutable</key>
+  <string>OpenmeterLuma</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.openmeter.OpenmeterLuma</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleIconFile</key>
+  <string>1024-mac</string>
+  <key>CFBundleName</key>
+  <string>Openmeter Luma</string>
+  <key>CFBundleDisplayName</key>
+  <string>Openmeter Luma</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>Luma Beta V 0.8</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>10.13</string>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Used to capture audio input for waveform visualization.</string>
+  <key>NSCameraUsageDescription</key>
+  <string>Used to show the selected camera as a background behind the waveform.</string>
+</dict>
+</plist>
