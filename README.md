@@ -1,4 +1,4 @@
-OpenMeter Luma v 0.8 Beta
+OpenMeter Luma v 0.88 Beta
 
 This is a beta release of OpenMeter Luma, a real-time waveform visualizer with camera integration.
 
