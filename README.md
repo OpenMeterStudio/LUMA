@@ -22,6 +22,8 @@ The standalone app is a self-contained application that:
 • Works independently - no DAW required
 • Perfect for live performances, streaming, or quick visualization
 
+<img src="./LUMA STANDALONE.png" width="800" alt="Standalone Application Interface">
+
 How it works:
 1. App launches and requests microphone permission
 2. You select an audio input device (mic, interface, etc.)
@@ -36,6 +38,14 @@ The VST3 plugin integrates into your DAW (Ableton Live, Logic, etc.):
 • Can be used on multiple tracks simultaneously
 • Each instance shows that track's audio independently
 • Supports Ableton Live specific features
+
+<img src="./LUMA - VST - CONTROL BOX.png" width="800" alt="VST3 Control Box in Ableton Live">
+
+The control box (shown above) contains all the VST3 settings and parameters when used in Ableton Live. You can adjust waveform appearance, camera settings, and other parameters directly from your DAW.
+
+<img src="./LUMA - VST - ABLEON - MULTI CHANNEL.png" width="800" alt="Multi-Channel VST3 Usage in Ableton Live">
+
+Multiple instances can be used simultaneously - one per track. Each instance visualizes that track's audio independently, allowing you to see waveforms for different channels simultaneously.
 
 How it works:
 1. Insert plugin on a track in your DAW
@@ -86,6 +96,9 @@ FEATURES
 
 • Real-time waveform visualization
 • Camera background integration
+
+<img src="./LUMA CAMARA.png" width="800" alt="Camera Background Integration">
+
 • MIDI support (clock sync, parameter control)
 • Customizable waveform parameters (hue, saturation, detail, etc.)
 • Multiple rendering modes (stereo split, multiband)
