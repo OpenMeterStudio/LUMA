@@ -1,107 +1,82 @@
-OpenMeter Luma v 0.88 Beta
+# LUMA
 
-This is a beta release of OpenMeter Luma, a real-time waveform visualizer with camera integration.
+Real-time waveform visuals for Ableton on macOS.
 
-System Requirements:
-- macOS 10.13 or later
-- Microphone access (for audio input)
-- Camera access (optional, for background video)
+`macOS only` `Ableton Live 11/12` `VST3 beta`
 
-Contents:
-- OpenmeterLuma.app - Standalone application
-- OpenmeterLuma.vst3 - VST3 plugin (for Ableton Live and other DAWs)
+[Download latest beta](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [Preview](#preview) | [Install](#install) | [Feedback](#feedback) | [Privacy and terms](#privacy-and-beta-terms)
 
-═══════════════════════════════════════════════════════════════
-HOW IT WORKS
-═══════════════════════════════════════════════════════════════
+## Preview
 
-STANDALONE APP:
-The standalone app is a self-contained application that:
-• Captures audio directly from your Mac's microphone or audio input device
-• Displays real-time waveform visualization in its own window
-• Works independently - no DAW required
-• Perfect for live performances, streaming, or quick visualization
+| Control UI | Multi-instance view |
+| --- | --- |
+| [![LUMA VST3 control UI](docs/assets/luma-vst-control.png)](docs/assets/luma-vst-control.png) | [![LUMA Ableton multi-instance view](docs/assets/luma-vst-multichannel.png)](docs/assets/luma-vst-multichannel.png) |
 
-<img src="./LUMA STANDALONE.png" width="800" alt="Standalone Application Interface">
+## What You Get
 
-How it works:
-1. App launches and requests microphone permission
-2. You select an audio input device (mic, interface, etc.)
-3. Audio is captured via Core Audio (HAL)
-4. Waveform is rendered in real-time using OpenGL
-5. You can adjust parameters in the settings panel
+- VST3 plugin for Ableton Live on macOS.
+- Real-time waveform visualization on any track or the master.
+- Optional camera backgrounds, color controls, and MIDI sync.
+- Standalone app is planned later and is not part of the current beta.
 
-VST3 PLUGIN:
-The VST3 plugin integrates into your DAW (Ableton Live, Logic, etc.):
-• Receives audio from the DAW's mixer/arrangement
-• Displays waveform for the track it's inserted on
-• Can be used on multiple tracks simultaneously
-• Each instance shows that track's audio independently
-• Supports Ableton Live specific features
+## Install
 
-<img src="./LUMA - VST - CONTROL BOX.png" width="800" alt="VST3 Control Box in Ableton Live">
+1. Download the latest release.
+2. Copy `OpenmeterLuma.vst3` to `~/Library/Audio/Plug-Ins/VST3/`.
+3. Quit and reopen Ableton Live to force a rescan.
+4. Open Ableton -> `Plug-ins` -> `VST3` -> `OpenmeterLuma`.
+5. Drop it on a track or the master and allow microphone permission when prompted.
 
-The control box (shown above) contains all the VST3 settings and parameters when used in Ableton Live. You can adjust waveform appearance, camera settings, and other parameters directly from your DAW.
+If Ableton does not see it, confirm the file exists at `~/Library/Audio/Plug-Ins/VST3/OpenmeterLuma.vst3` and fully restart Ableton.
 
-<img src="./LUMA - VST - ABLEON - MULTI CHANNEL.png" width="800" alt="Multi-Channel VST3 Usage in Ableton Live">
+## How To Use And What To Test
 
-Multiple instances can be used simultaneously - one per track. Each instance visualizes that track's audio independently, allowing you to see waveforms for different channels simultaneously.
+- Enable monitoring or play back audio so the plugin has signal.
+- Use the plugin UI to adjust colors, camera mode, and MIDI sync.
+- Leave the UI open while testing so hotkeys and overlays respond.
+- Confirm the plugin appears reliably after install and rescan.
+- Run it for 30-60 minutes and watch for stutter, crashes, or UI freezes.
+- Test one instance per track if you want stacked multi-channel visuals.
+- Check camera permission prompts and camera stability if you use that mode.
 
-How it works:
-1. Insert plugin on a track in your DAW
-2. DAW sends audio to the plugin via VST3 protocol
-3. Plugin processes the audio and renders waveform
-4. Multiple instances can run at once (one per track)
-5. Each instance is independent with its own settings
+## Hotkeys
 
-KEY DIFFERENCES:
+| Key | Action |
+| --- | --- |
+| `5` | Open image overlay picker |
+| `0` | Clear image overlay |
+| `9` | Toggle telemetry overlay |
+| Click `<Openmeter/>` | Show or hide logo |
 
-Audio Source:
-• Standalone: Captures from system audio input (mic/interface)
-• VST3: Receives audio from DAW tracks
+Hotkeys work when the LUMA plugin UI has focus in Ableton.
 
-Use Cases:
-• Standalone: Live performance, streaming, quick visualization
-• VST3: Music production, mixing, track-specific visualization
+## Multiple Instances
 
-Multiple Instances:
-• Standalone: One app window, one audio source
-• VST3: Multiple plugin instances, one per track
+- The first LUMA instance opened in a project becomes the master renderer.
+- Additional instances stay small but still feed their track audio into the master view.
+- To change which instance is the master, remove all LUMA instances and load the desired track first.
+- If the view disappears, close and reopen the first-loaded instance.
 
-Integration:
-• Standalone: Works alone, no DAW needed
-• VST3: Integrated into your workflow, follows DAW transport
+## Feedback
 
-═══════════════════════════════════════════════════════════════
-INSTALLATION
-═══════════════════════════════════════════════════════════════
+Open an issue here: [GitHub issues](https://github.com/OpenMeterStudio/LUMA/issues/new)
 
-Standalone App:
-1. Open the OpenmeterLuma.app
-2. Grant microphone permission when prompted
-3. Grant camera permission if you want to use camera backgrounds
-4. Select your audio input device and click "Enable Audio Input"
+Include:
 
-VST3 Plugin (for Ableton Live):
-1. Copy OpenmeterLuma.vst3 to ~/Library/Audio/Plug-Ins/VST3/
-   (or /Library/Audio/Plug-Ins/VST3/ for system-wide installation)
-2. Restart your DAW (Ableton Live, etc.)
-3. The plugin will appear in your VST3 plugin list
-4. Insert it on any track to visualize that track's audio
-5. Grant microphone and camera permissions when first used
+- macOS version
+- Mac type: Apple Silicon or Intel
+- Ableton version: 11 or 12
+- Steps to reproduce
+- Expected result
+- Actual result
+- Crash message, screenshot, or `OpenmeterLuma.log` if available
 
-═══════════════════════════════════════════════════════════════
-FEATURES
-═══════════════════════════════════════════════════════════════
+## Privacy And Beta Terms
 
-• Real-time waveform visualization
-• Camera background integration
+- We collect the contact info and beta feedback you send us.
+- We use it for beta access, updates, and troubleshooting.
+- We do not sell personal information.
+- LUMA is beta software, so features may change and crashes are possible.
+- Microphone permission is required for audio input. Camera permission is optional.
 
-<img src="./LUMA CAMARA.png" width="800" alt="Camera Background Integration">
-
-• MIDI support (clock sync, parameter control)
-• Customizable waveform parameters (hue, saturation, detail, etc.)
-• Multiple rendering modes (stereo split, multiband)
-• Ableton Live specific features (when used as VST3 plugin)
-
-Made by Eugene James
+This README is the GitHub-safe version of the beta portal, so the privacy and beta terms summary lives here instead of on a separate site.
