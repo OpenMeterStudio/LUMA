@@ -10,23 +10,27 @@ LUMA is for producers and creators who want motion, shape, and track-specific vi
 
 ## Preview
 
-| Control UI | Multi-instance view |
+| Multi-layer view | Image background + layers |
 | --- | --- |
-| [![LUMA VST3 control UI](docs/assets/luma-vst-control.png)](docs/assets/luma-vst-control.png) | [![LUMA Ableton multi-instance view](docs/assets/luma-vst-multichannel.png)](docs/assets/luma-vst-multichannel.png) |
+| [![LUMA multi-layer view](<docs/assets/multi layer.png>)](<docs/assets/multi layer.png>) | [![LUMA image background plus multi layers](<docs/assets/IMAGE BACKGROUND PLUS MULTI LAYERS.png>)](<docs/assets/IMAGE BACKGROUND PLUS MULTI LAYERS.png>) |
+
+| Multi-band mode | Stereo split |
+| --- | --- |
+| [![LUMA multi-band mode](<docs/assets/MULTI BAND MODE BETA.png>)](<docs/assets/MULTI BAND MODE BETA.png>) | [![LUMA stereo split mode](<docs/assets/STEREO SPLIT.png>)](<docs/assets/STEREO SPLIT.png>) |
 
 ## Why LUMA
 
 - Waveform-first visuals instead of basic meter bars, so the motion feels musical and screen-ready.
 - Insert it directly on individual tracks or the master to see exactly where energy is coming from in a session.
 - Run multiple instances in one project for layered, track-aware visuals instead of a single generic readout.
-- Shape the look with color controls, image overlays, and MIDI sync.
+- Switch between looks like stereo split, multi-band mode, layered views, and image-backed compositions.
 - Built for Ableton workflows, so it feels like part of the set or project rather than a detached desktop visualizer.
 
 ## What You Get
 
 - A VST3 plugin for Ableton Live on macOS.
 - Real-time waveform rendering on any track or the master bus.
-- Image overlays, color controls, telemetry overlay, and MIDI sync.
+- Stereo split, multi-band mode, image backgrounds, overlays, color controls, telemetry overlay, and MIDI sync.
 - Multi-instance behavior for stacked or track-by-track visual setups.
 - A plugin-first beta today, with a standalone app planned later.
 
@@ -50,7 +54,7 @@ If Ableton does not see it, confirm the bundle exists at `~/Library/Audio/Plug-I
 ## First Run
 
 - Enable monitoring or play back audio so the plugin has signal.
-- Open the plugin UI and adjust waveform style, color, and MIDI sync.
+- Open the plugin UI and adjust waveform style, layering, color, and MIDI sync.
 - Leave the UI open while testing so hotkeys and overlays respond.
 
 ## Multiple Instances
@@ -77,7 +81,7 @@ Hotkeys work when the LUMA plugin UI has focus in Ableton.
 - Run it for 30 to 60 minutes and watch for stutter, crashes, UI freezes, or dropped frames.
 - Test one instance per track if you want stacked multi-channel visuals.
 - Switch between simple and busy projects to check stability under different session loads.
-- Verify permissions and image overlay behavior if you use those features.
+- Verify image backgrounds, overlays, and different visual modes if you use those features.
 
 ## Feedback
 
