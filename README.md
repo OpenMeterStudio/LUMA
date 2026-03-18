@@ -14,9 +14,9 @@ LUMA is for producers and creators who want motion, shape, and track-specific vi
 | --- | --- |
 | [![LUMA multi-layer view](<docs/assets/multi layer.png>)](<docs/assets/multi layer.png>) | [![LUMA image background plus multi layers](<docs/assets/IMAGE BACKGROUND PLUS MULTI LAYERS.png>)](<docs/assets/IMAGE BACKGROUND PLUS MULTI LAYERS.png>) |
 
-| Multi-band mode | Stereo split |
+| Control UI | Stereo split |
 | --- | --- |
-| [![LUMA multi-band mode](<docs/assets/MULTI BAND MODE BETA.png>)](<docs/assets/MULTI BAND MODE BETA.png>) | [![LUMA stereo split mode](<docs/assets/STEREO SPLIT.png>)](<docs/assets/STEREO SPLIT.png>) |
+| [![LUMA control UI](<docs/assets/CONTROL UI.png>)](<docs/assets/CONTROL UI.png>) | [![LUMA stereo split mode](<docs/assets/STEREO SPLIT.png>)](<docs/assets/STEREO SPLIT.png>) |
 
 ## Why LUMA
 
