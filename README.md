@@ -18,13 +18,6 @@ LUMA is for producers and creators who want motion, shape, and track-specific vi
 | --- | --- |
 | [![LUMA control UI](<docs/assets/CONTROL UI.png>)](<docs/assets/CONTROL UI.png>) | [![LUMA stereo split mode](<docs/assets/STEREO SPLIT.png>)](<docs/assets/STEREO SPLIT.png>) |
 
-## Why LUMA
-
-- Waveform-first visuals instead of basic meter bars, so the motion feels musical and screen-ready.
-- Insert it directly on individual tracks or the master to see exactly where energy is coming from in a session.
-- Run multiple instances in one project for layered, track-aware visuals instead of a single generic readout.
-- Switch between looks like stereo split, multi-band mode, layered views, and image-backed compositions.
-- Built for Ableton workflows, so it feels like part of the set or project rather than a detached desktop visualizer.
 
 ## What You Get
 
@@ -74,6 +67,15 @@ If Ableton does not see it, confirm the bundle exists at `~/Library/Audio/Plug-I
 | Click `<Openmeter/>` | Show or hide logo |
 
 Hotkeys work when the LUMA plugin UI has focus in Ableton.
+
+
+## Why LUMA
+
+- Waveform-first visuals instead of basic meter bars, so the motion feels musical and screen-ready.
+- Insert it directly on individual tracks or the master to see exactly where energy is coming from in a session.
+- Run multiple instances in one project for layered, track-aware visuals instead of a single generic readout.
+- Switch between looks like stereo split, multi-band mode, layered views, and image-backed compositions.
+- Built for Ableton workflows, so it feels like part of the set or project rather than a detached desktop visualizer.
 
 ## Beta Testing Focus
 
