@@ -6,6 +6,8 @@ Waveform visuals for Ableton on macOS, built to live inside the session instead 
 
 [Download latest beta](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [Preview](#preview) | [Why LUMA](#why-luma) | [Install](#install) | [Feedback](#feedback) | [Privacy and terms](#privacy-and-beta-terms)
 
+Directly reachout to me ay jay@openmeter.studio
+
 LUMA is for producers and creators who want motion, shape, and track-specific visuals, not just loudness readouts. Put it on a track or the master, dial in the look, and turn your session into something you can actually perform with or capture on screen.
 
 ## Preview
