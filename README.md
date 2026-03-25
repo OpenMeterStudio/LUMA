@@ -108,5 +108,3 @@ Include:
 - We do not sell personal information.
 - LUMA is beta software, so features may change and crashes are possible.
 - Microphone permission is required for audio input.
-
-This README is the GitHub-safe version of the beta portal, so the privacy and beta terms summary lives here instead of on a separate site.
