@@ -2,11 +2,9 @@
 
 Waveform visuals for Ableton on macOS, built to live inside the session instead of sitting off to the side as a utility meter.
 
-`macOS only` `Ableton Live 11/12` `VST3 beta`
+`macOS only` | `Ableton Live 11/12` | `VST3 beta` | [![Download latest beta](https://img.shields.io/github/v/release/OpenMeterStudio/LUMA?label=latest%20beta)](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [![Preview](https://img.shields.io/badge/preview-available-blue)](#preview) | [![Why LUMA](https://img.shields.io/badge/why-LUMA-blue)](#why-luma) | [![Install](https://img.shields.io/badge/Install-Guide-blue)](#install) | [![Feedback](https://img.shields.io/badge/Feedback-issues-blue)](https://github.com/OpenMeterStudio/LUMA/issues) | [![Privacy](https://img.shields.io/badge/Privacy-beta%20terms-lightgrey)](#privacy-and-beta-terms) | [![Email](https://img.shields.io/badge/contact-jay@openmeter.studio-yellow)](mailto:jay@openmeter.studio)
 
-[Download latest beta](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [Preview](#preview) | [Why LUMA](#why-luma) | [Install](#install) | [Feedback](#feedback) | [Privacy and terms](#privacy-and-beta-terms)
 
-Directly reach out to me at jay@openmeter.studio
 
 LUMA is for producers and creators who want motion, shape, and track-specific visuals, not just loudness readouts. Put it on a track or the master, dial in the look, and turn your session into something you can actually perform with or capture on screen.
 
@@ -20,6 +18,13 @@ LUMA is for producers and creators who want motion, shape, and track-specific vi
 | --- | --- |
 | [![LUMA control UI](<docs/assets/CONTROL UI.png>)](<docs/assets/CONTROL UI.png>) | [![LUMA stereo split mode](<docs/assets/STEREO SPLIT.png>)](<docs/assets/STEREO SPLIT.png>) |
 
+## Why LUMA
+
+- Waveform-first visuals instead of basic meter bars, so the motion feels musical and screen-ready.
+- Insert it directly on individual tracks or the master to see exactly where energy is coming from in a session.
+- Run multiple instances in one project for layered, track-aware visuals instead of a single generic readout.
+- Switch between looks like stereo split, multi-band mode, layered views, and image-backed compositions.
+- Built for Ableton workflows, so it feels like part of the set or project rather than a detached desktop visualizer.
 
 ## What You Get
 
@@ -39,12 +44,12 @@ LUMA is for producers and creators who want motion, shape, and track-specific vi
 ## Install
 
 1. Download the latest release.
-2. Copy `OpenmeterLuma.vst3` to `~/Library/Audio/Plug-Ins/VST3/`. Use `/Library/Audio/Plug-Ins/VST3/` if you want a system-wide install for all users.
+2. Copy `LUMA 1.3.0.vst3` to `~/Library/Audio/Plug-Ins/VST3/`. Use `/Library/Audio/Plug-Ins/VST3/` if you want a system-wide install for all users.
 3. Quit and reopen Ableton Live to force a rescan.
-4. Open Ableton and go to `Plug-ins` -> `VST3` -> `OpenmeterLuma`.
+4. Open Ableton and go to `Plug-ins` -> `VST3` -> `LUMA 1.3.0`.
 5. Drop it on a track or the master and allow microphone permission when prompted.
 
-If Ableton does not see it, confirm the bundle exists at `~/Library/Audio/Plug-Ins/VST3/OpenmeterLuma.vst3` and then fully restart Ableton again.
+If Ableton does not see it, confirm the bundle exists at `$HOME/Library/Audio/Plug-Ins/VST3/LUMA 1.3.0.vst3` and then fully restart Ableton again.
 
 ## First Run
 
@@ -70,15 +75,6 @@ If Ableton does not see it, confirm the bundle exists at `~/Library/Audio/Plug-I
 
 Hotkeys work when the LUMA plugin UI has focus in Ableton.
 
-
-## Why LUMA
-
-- Waveform-first visuals instead of basic meter bars, so the motion feels musical and screen-ready.
-- Insert it directly on individual tracks or the master to see exactly where energy is coming from in a session.
-- Run multiple instances in one project for layered, track-aware visuals instead of a single generic readout.
-- Switch between looks like stereo split, multi-band mode, layered views, and image-backed compositions.
-- Built for Ableton workflows, so it feels like part of the set or project rather than a detached desktop visualizer.
-
 ## Beta Testing Focus
 
 - Confirm the plugin appears reliably after install and rescan.
@@ -99,7 +95,7 @@ Include:
 - Steps to reproduce
 - Expected result
 - Actual result
-- Crash message, screenshot, or `OpenmeterLuma.log` if available
+- Crash message, screenshot, or `LUMA 1.3.0.log` if available
 
 ## Privacy And Beta Terms
 
@@ -108,3 +104,5 @@ Include:
 - We do not sell personal information.
 - LUMA is beta software, so features may change and crashes are possible.
 - Microphone permission is required for audio input.
+
+This README is the GitHub-safe version of the beta portal, so the privacy and beta terms summary lives here instead of on a separate site.
