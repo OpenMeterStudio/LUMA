@@ -2,11 +2,23 @@
 
 Waveform visuals for Ableton Live, built to live inside your session instead of sitting off to the side as another utility meter.
 
- [![Download latest beta](https://img.shields.io/github/v/release/OpenMeterStudio/LUMA?label=latest%20beta)](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [![Preview](https://img.shields.io/badge/preview-available-blue)](#preview) | [![macOS](https://img.shields.io/badge/macOS-install-blue)](#macos) | [![Windows](https://img.shields.io/badge/Windows-install-lightgrey)](#windows) | [![Feedback](https://img.shields.io/badge/feedback-issues-blue)](https://github.com/OpenMeterStudio/LUMA/issues) | [![Email](https://img.shields.io/badge/contact-jay@openmeter.studio-yellow)](mailto:jay@openmeter.studio)
+[![Download latest beta](https://img.shields.io/github/v/release/OpenMeterStudio/LUMA?label=latest%20beta)](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [![Preview](https://img.shields.io/badge/preview-available-blue)](#preview) | [![macOS](https://img.shields.io/badge/macOS-install-blue)](#macos) | [![Windows](https://img.shields.io/badge/Windows-install-lightgrey)](#windows) | [![Feedback](https://img.shields.io/badge/feedback-issues-blue)](https://github.com/OpenMeterStudio/LUMA/issues) | [![Email](https://img.shields.io/badge/contact-jay@openmeter.studio-yellow)](mailto:jay@openmeter.studio)
 
 LUMA turns your audio into smooth, real-time waveform visuals that live in your DAW or run as their own window. Its not a loudness meter or a spectrum analyzer — its a visual layer for your music that you can use in production, streaming, content creation, or live performance.
 
 The plugin passes audio through untouched. Everything it does is visual.
+
+---
+
+# Why LUMA
+
+Traditional meters tell you how loud your music is. LUMA shows what it feels like.
+
+Drop it on a track or your master bus and your session becomes a customizable, animated waveform display that reacts in real time. Adjust the colors, switch between display modes, layer in a camera feed or an image, and the visuals follow whatever you feed through it.
+
+Run it inside Ableton as a VST3 on individual tracks or the master. Or run the standalone app with any audio input — microphone, interface, loopback — and use it outside a DAW entirely.
+
+Multiple instances in one project layer their waveforms together. Separate out your drums, bass, vocals, and synths across different tracks, and watch the full arrangement scroll by as one composite view.
 
 ---
 
@@ -23,18 +35,6 @@ The plugin passes audio through untouched. Everything it does is visual.
 | macOS standalone app | Color grade modes |
 | --- | --- |
 | [![LUMA macOS standalone](<docs/assets/stanbdalone.png>)](<docs/assets/stanbdalone.png>) | [![LUMA color modes](<docs/assets/color_grades_composite.png>)](<docs/assets/color_grades_composite.png>) |
-
----
-
-# Why LUMA
-
-Traditional meters tell you how loud your music is. LUMA shows what it feels like.
-
-Drop it on a track or your master bus and your session becomes a customizable, animated waveform display that reacts in real time. Adjust the colors, switch between display modes, layer in a camera feed or an image, and the visuals follow whatever you feed through it.
-
-Run it inside Ableton as a VST3 on individual tracks or the master. Or run the standalone app with any audio input — microphone, interface, loopback — and use it outside a DAW entirely.
-
-Multiple instances in one project layer their waveforms together. Separate out your drums, bass, vocals, and synths across different tracks, and watch the full arrangement scroll by as one composite view.
 
 ---
 
