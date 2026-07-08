@@ -2,7 +2,7 @@
 
 Waveform visuals for Ableton Live, built to live inside your session instead of sitting off to the side as another utility meter.
 
-`Ableton Live 11/12` | `VST3` | [![Download latest beta](https://img.shields.io/github/v/release/OpenMeterStudio/LUMA?label=latest%20beta)](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [![Preview](https://img.shields.io/badge/preview-available-blue)](#preview) | [![macOS](https://img.shields.io/badge/macOS-install-blue)](#macos) | [![Windows](https://img.shields.io/badge/Windows-install-lightgrey)](#windows) | [![Feedback](https://img.shields.io/badge/feedback-issues-blue)](https://github.com/OpenMeterStudio/LUMA/issues) | [![Email](https://img.shields.io/badge/contact-jay@openmeter.studio-yellow)](mailto:jay@openmeter.studio)
+ [![Download latest beta](https://img.shields.io/github/v/release/OpenMeterStudio/LUMA?label=latest%20beta)](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [![Preview](https://img.shields.io/badge/preview-available-blue)](#preview) | [![macOS](https://img.shields.io/badge/macOS-install-blue)](#macos) | [![Windows](https://img.shields.io/badge/Windows-install-lightgrey)](#windows) | [![Feedback](https://img.shields.io/badge/feedback-issues-blue)](https://github.com/OpenMeterStudio/LUMA/issues) | [![Email](https://img.shields.io/badge/contact-jay@openmeter.studio-yellow)](mailto:jay@openmeter.studio)
 
 LUMA turns your audio into smooth, real-time waveform visuals that live in your DAW or run as their own window. Its not a loudness meter or a spectrum analyzer — its a visual layer for your music that you can use in production, streaming, content creation, or live performance.
 
@@ -22,7 +22,7 @@ The plugin passes audio through untouched. Everything it does is visual.
 
 | macOS standalone app | Color grade modes |
 | --- | --- |
-| [![LUMA macOS standalone](<docs/assets/standalone.png>)](<docs/assets/stanbdalone.png>) | [![LUMA color modes](<docs/assets/color_grades_composite.png>)](<docs/assets/color_grades_composite.png>) |
+| [![LUMA macOS standalone](<docs/assets/stanbdalone.png>)](<docs/assets/stanbdalone.png>) | [![LUMA color modes](<docs/assets/color_grades_composite.png>)](<docs/assets/color_grades_composite.png>) |
 
 ---
 
