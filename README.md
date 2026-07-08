@@ -22,7 +22,7 @@ The plugin passes audio through untouched. Everything it does is visual.
 
 | macOS standalone app | Color grade modes |
 | --- | --- |
-| ![LUMA macOS standalone](https://imgur.com/2V0uYyj) | ![LUMA color modes](https://imgur.com/P9MAfCO) |
+| [![LUMA macOS standalone](<docs/assets/standalone.png>)](<docs/assets/stanbdalone.png>) | [![LUMA color modes](<docs/assets/color_grades_composite.png>)](<docs/assets/color_grades_composite.png>) |
 
 ---
 
