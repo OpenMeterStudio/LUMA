@@ -2,7 +2,7 @@
 
 Waveform visuals for Ableton Live, built to live inside your session instead of sitting off to the side as another utility meter.
 
-`Ableton Live 11/12` | `VST3 Beta` | [![Download latest beta](https://img.shields.io/github/v/release/OpenMeterStudio/LUMA?label=latest%20beta)](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [![Preview](https://img.shields.io/badge/preview-available-blue)](#preview) | [![Features](https://img.shields.io/badge/features-LUMA-blue)](#features) | [![macOS](https://img.shields.io/badge/macOS-install-blue)](#macos) | [![Windows](https://img.shields.io/badge/Windows-install-lightgrey)](#windows) | [![Standalone](https://img.shields.io/badge/standalone-app-blue)](#standalone-app) | [![Feedback](https://img.shields.io/badge/feedback-issues-blue)](https://github.com/OpenMeterStudio/LUMA/issues) | [![Privacy](https://img.shields.io/badge/privacy-beta%20terms-lightgrey)](#privacy--beta) | [![Email](https://img.shields.io/badge/contact-jay@openmeter.studio-yellow)](mailto:jay@openmeter.studio)
+`Ableton Live 11/12` | `VST3` | [![Download latest beta](https://img.shields.io/github/v/release/OpenMeterStudio/LUMA?label=latest%20beta)](https://github.com/OpenMeterStudio/LUMA/releases/latest) | [![Preview](https://img.shields.io/badge/preview-available-blue)](#preview) | [![macOS](https://img.shields.io/badge/macOS-install-blue)](#macos) | [![Windows](https://img.shields.io/badge/Windows-install-lightgrey)](#windows) | [![Feedback](https://img.shields.io/badge/feedback-issues-blue)](https://github.com/OpenMeterStudio/LUMA/issues) | [![Email](https://img.shields.io/badge/contact-jay@openmeter.studio-yellow)](mailto:jay@openmeter.studio)
 
 LUMA turns your audio into smooth, real-time waveform visuals that live in your DAW or run as their own window. Its not a loudness meter or a spectrum analyzer — its a visual layer for your music that you can use in production, streaming, content creation, or live performance.
 
@@ -19,6 +19,10 @@ The plugin passes audio through untouched. Everything it does is visual.
 | Control UI | Stereo split |
 | --- | --- |
 | [![LUMA control UI](<docs/assets/CONTROL UI.png>)](<docs/assets/CONTROL UI.png>) | [![LUMA stereo split mode](<docs/assets/STEREO SPLIT.png>)](<docs/assets/STEREO SPLIT.png>) |
+
+| macOS standalone app | Color grade modes |
+| --- | --- |
+| ![LUMA macOS standalone](https://imgur.com/2V0uYyj) | ![LUMA color modes](https://imgur.com/P9MAfCO) |
 
 ---
 
@@ -96,36 +100,20 @@ LUMA fits into a handful of workflows.
 
 ---
 
-# What You Get
-
-- VST3 plugin for Ableton Live
-- Standalone desktop application
-- Real-time waveform rendering at 60+ FPS
-- Stereo split mode
-- Five-band multiband mode
-- Image overlay backgrounds
-- Live camera backgrounds with audio-reactive shake
-- Telemetry overlay
-- MIDI clock sync and MIDI learn
-- Multi-instance rendering
-- Parametric control of every visual aspect
-- 4 color map options with gradient coloring
-
----
-
 # Requirements
 
 - Ableton Live 11 or 12 (for VST3 use)
 - VST3 plugin support enabled
 
-### macOS
+## macOS
 
 - macOS 10.13 or later
 - Apple Silicon or Intel
 
-### Windows
+## Windows
 
-- Coming soon with the Windows beta release.
+- Windows 10 or later
+- 64-bit
 
 ---
 
@@ -135,7 +123,7 @@ LUMA fits into a handful of workflows.
 
 ### VST3 Plugin
 
-1. Download the latest release.
+1. Download the latest macOS release.
 2. Copy `LUMA.vst3` into:
 
 ```
@@ -149,29 +137,50 @@ Or install system-wide:
 ```
 
 3. Restart Ableton Live.
-4. Go to `Plug-ins → VST3 → LUMA`.
-5. Allow microphone permission when prompted (required for audio input routing on macOS).
+4. Go to `Plug-ins > VST3 > LUMA`.
+5. Allow microphone permission when prompted.
+
+If the plugin does not appear, verify the `.vst3` bundle is in your VST3 folder and restart Ableton.
 
 ### Standalone App
 
-1. Download the standalone app from the same release.
+1. Download the same macOS release.
 2. Move `OpenmeterLuma.app` to your Applications folder.
 3. Open it and select an audio input device from the dropdown.
 4. Press Space or click Enable to start capture.
-
-If the plugin does not appear in Ableton, verify the `.vst3` bundle is in your VST3 folder and restart Ableton.
 
 ---
 
 ## Windows
 
-> Windows installation instructions coming soon. The Windows beta is available. Documentation for recommended install locations, troubleshooting, and known issues will be added here.
+### VST3 Plugin
+
+1. Download the latest Windows release.
+2. Copy the `VST3/LUMA.vst3` folder into one of the following:
+
+```
+%LOCALAPPDATA%\Programs\Common\VST3\      (per-user, recommended)
+%COMMONPROGRAMFILES%\VST3\                (system-wide, admin)
+```
+
+Or use a custom VST3 folder set up in your DAW preferences.
+
+3. Rescan plugins in your DAW.
+4. Enable the LUMA plugin on a track.
+
+### Standalone App
+
+The standalone application for Windows is in development. For now, Windows users can run LUMA as a VST3 inside Ableton Live.
 
 ---
 
 # Standalone App
 
-LUMA also runs as a standalone macOS application that does not require Ableton. It uses the same rendering engine as the VST3 plugin.
+LUMA also runs as a standalone desktop application. It uses the same rendering engine as the VST3 plugin and does not require a DAW.
+
+## macOS
+
+The macOS standalone app is included in every release.
 
 - Select any Core Audio input device (built-in mic, audio interface, loopback)
 - Adjustable input gain (0x to 2x)
@@ -181,6 +190,10 @@ LUMA also runs as a standalone macOS application that does not require Ableton. 
 - Compact mode for full-screen waveform with no UI
 - Full keyboard shortcut support
 - MIDI learn and MIDI clock sync
+
+## Windows
+
+The standalone app for Windows is coming in a future release. For now, use the VST3 plugin inside Ableton Live.
 
 ---
 
@@ -195,38 +208,37 @@ LUMA also runs as a standalone macOS application that does not require Ableton. 
 
 # Hotkeys
 
+## Standalone App
+
 | Key | Action |
 | --- | --- |
-| `5` | Open image overlay picker |
+| `Tab` | Toggle compact mode |
+| `Shift` + `Tab` | Detach / reattach settings window |
+| `Space` | Start / stop audio capture |
+| `R` | Refresh audio device list |
+| `C` | Toggle camera on / off |
+| `M` | Toggle MIDI learn mode |
+| `F` | Toggle fullscreen |
+| `Esc` | Exit fullscreen |
+| `L` | Open image overlay picker |
+| `1` – `4` | Switch settings tabs |
+
+## VST3 Plugin (macOS)
+
+| Key | Action |
+| --- | --- |
+| `L` / `l` | Open image overlay picker |
 | `0` | Clear image overlay |
 | `9` | Toggle telemetry overlay |
 | Click `<OpenMeter/>` | Show or hide logo |
 
-Hotkeys work when the LUMA plugin UI is focused in Ableton, or in the standalone app window.
-
 ---
 
-# Beta Testing
+# Beta Testing & Feedback
 
-Were looking for feedback on:
+Were looking for feedback on installation, performance, crashes, frame rate, multi-instance behavior, visual glitches, compatibility, and feature requests. Run it for 30 to 60 minutes in a normal session and let us know how it goes.
 
-- Installation and setup
-- Performance and frame rate
-- Crashes and stability
-- Multi-instance behavior
-- Visual glitches
-- Compatibility with different projects and track layouts
-- Feature requests
-
-Run it for 30 to 60 minutes in a normal session and let us know how it goes.
-
----
-
-# Feedback
-
-Open an issue here:
-
-https://github.com/OpenMeterStudio/LUMA/issues/new
+Open an issue here: https://github.com/OpenMeterStudio/LUMA/issues/new
 
 Please include:
 
@@ -249,16 +261,7 @@ Please include:
 - Performance improvements
 - Additional color themes and rendering effects
 - Expanded plugin host compatibility
-
----
-
-# Privacy & Beta
-
-- We only collect information you voluntarily submit through beta feedback.
-- Information is used for support, troubleshooting, and product updates.
-- We never sell personal information.
-- LUMA is beta software. Features and behavior may change between releases.
-- Microphone permission is required for audio input on macOS.
+- Windows standalone application
 
 ---
 
@@ -266,11 +269,12 @@ Please include:
 
 ## macOS
 
-- Microphone permission may be required depending on your audio routing. This is a macOS system-level requirement for audio input, not something the app enforces.
+- Microphone permission may be required on first run. This is a macOS system-level requirement for audio input.
 - The VST3 plugin renders while its UI is open. Closing the plugin view stops rendering.
 - The standalone app runs independently of any DAW.
 
 ## Windows
 
-- Documentation will be added as the Windows beta matures.
-- Builds are available. Installation and known issues documentation is pending.
+- The Windows VST3 plugin should be placed in your VST3 folder as described in the installation section above.
+- If your DAW supports custom VST3 folders, you can place LUMA anywhere and point your DAW to it.
+- The standalone app is not yet available on Windows.
